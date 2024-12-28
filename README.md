@@ -1,5 +1,5 @@
 
-
+适合新手入门docker和js后端的入门级项目
 
 ## Installation Guide
 
@@ -7,6 +7,7 @@
 - [Nodejs](https://nodejs.org/en/download)
 - [Mongodb](https://www.mongodb.com/docs/manual/administration/install-community/)
 - [Deno](https://deno.com/)
+- [Docker]() (option)
 
 Both should be installed and make sure mongodb is running.
 
@@ -53,12 +54,3 @@ mongosh $MDB_CONNECTION_STRING;
 ```sh
 docker run -d -p 27017:27017 --name my-mongo mongodb
 ```
-
-
-# Snappy - Chat Application 
-Snappy is chat application build with the power of MERN Stack. You can find the tutorial [here](https://www.youtube.com/watch?v=otaQKODEUFs)
-
-
-![login page](./images/snappy_login.png)
-
-![home page](./images/snappy.png)
